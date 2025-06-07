@@ -1,10 +1,10 @@
 # Start with a base image
 
-FROM golang:1.21 as base
+FROM golang:1.22.5 AS base
 
 WORKDIR /app
 
-COPY go.mod
+COPY go.mod ./
 
 RUN go mod download
 
