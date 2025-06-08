@@ -35,26 +35,76 @@
     }
     main {
       padding: 40px;
-      text-align: center;
+      max-width: 1000px;
+      margin: auto;
     }
     h2 {
       color: #0f172a;
+      margin-bottom: 10px;
+    }
+    section {
+      margin-bottom: 40px;
+    }
+    .highlight {
+      background: #e2e8f0;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 2px 4px #ccc;
+    }
+    .tech-stack {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+      gap: 15px;
+      margin-top: 20px;
+    }
+    .tech-item {
+      background-color: white;
+      border-radius: 8px;
+      padding: 10px;
+      text-align: center;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+      font-weight: bold;
     }
   </style>
 </head>
 <body>
   <header><h1>Welcome to My DevOps World</h1></header>
   <nav>
-    <a href="home.html">Home</a>
-    <a href="courses.html">Courses</a>
-    <a href="about.html">About</a>
-    <a href="contact.html">Contact</a>
+    <a href="home">Home</a>
+    <a href="courses">Courses</a>
+    <a href="about">About</a>
+    <a href="contact">Contact</a>
   </nav>
   <main>
-    <h2>Hello, I'm Wajih Kamel 👋</h2>
-    <p>Passionate about DevOps, automation, and cloud-native solutions.</p>
-    <p>This website is a small journey into my tech world.</p>
+    <section class="highlight">
+      <h2>Hello, I'm wajih kamel 👋</h2>
+      <p>I’m a DevOps student with a passion for automation, cloud computing, and modern infrastructure practices. My goal is to build scalable, reliable systems while empowering developer productivity.</p>
+    </section>
+
+    <section>
+      <h2>🌟 My Mission</h2>
+      <p>I strive to bridge the gap between development and operations through effective tooling, CI/CD pipelines, and container orchestration. Learning and sharing is at the core of my journey.</p>
+    </section>
+
+    <section>
+      <h2>🛠️ Tech Stack I Work With</h2>
+      <div class="tech-stack">
+        <div class="tech-item">Docker</div>
+        <div class="tech-item">Kubernetes</div>
+        <div class="tech-item">Jenkins</div>
+        <div class="tech-item">Git & GitHub</div>
+        <div class="tech-item">Linux</div>
+        <div class="tech-item">Python</div>
+        <div class="tech-item">Ansible</div>
+        <div class="tech-item">Bash</div>
+      </div>
+    </section>
+
+    <section>
+      <h2>🚀 What's Next?</h2>
+      <p>I’m continuously improving my skills and working on real-world projects. Check out the <strong>Courses</strong> page to see what I’m learning, and visit the <strong>About</strong> section to learn more about me.</p>
+    </section>
   </main>
-  <footer>© 2025 Your Name</footer>
+  <footer>© 2025 Wajih Kamel</footer>
 </body>
 </html>
